@@ -43,7 +43,7 @@ class ConcreteSection:
             the geometric centroid i.e. material properties applied (useful for
             composite section analysis)
         """
-
+        print("Now analyzing")
         self.compound_geometry = geometry
 
         # check overlapping regions
